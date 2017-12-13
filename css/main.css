@@ -1,1 +1,9 @@
 /* Los estilos de tu proyecto */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+} 
+/*.menu{
+    margin:0;
+    padding: 0;
+}  */
