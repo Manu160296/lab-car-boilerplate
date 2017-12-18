@@ -159,6 +159,11 @@
   width: 100%;
 }
 
+.border-image{
+  border: 1px solid var(--principal-color);
+  padding: 5px;
+}
+
 /* FOOTER STYLES*/
 footer  a:hover {
   text-decoration: none;
