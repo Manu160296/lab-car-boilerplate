@@ -1,0 +1,313 @@
+/* Los estilos de tu proyecto */
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* VARIABLES*/
+:root {
+  --bg-header : #ffffff;
+  --bg-section : #F7B617;
+  --bg-footer : #2B2B2B;
+  --principal-color : #ffffff;
+  --main-color: #000000;
+}
+
+/*GENERAL STYLES */
+.img-fluid {
+  min-width: 150px;
+  height: auto;
+}
+.first-color-theme{
+  background-color: var(--bg-section);
+}
+
+.section--text-color{
+  color: var(--principal-color);
+}
+
+.bg-footer{
+  background-color: var(--bg-footer);
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font-weight {
+  font-weight: 600;
+}
+
+.section {
+  padding:0;
+  margin:0;
+}
+
+.section--padding{
+  padding: 30px;
+}
+
+.margin{
+  margin:0;
+}
+
+.padding {
+  padding: 0;
+}
+
+.section__title{
+  font-size: 2.5em;
+}
+
+.section__subtitle {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.section__button {
+  font-weight: 900;
+  font-size: 1.3em;
+}
+
+.section__button--style1 {
+  background-color: var(--principal-color);
+  color: var(--main-color);
+}
+
+.section__button--style2 {
+  background-color: var(--bg-section);
+  color: var(--principal-color);
+}
+
+
+/* NAVBAR STYLES*/
+.navbar {
+  background-color: var(--bg-header);
+  border: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.navbar__items {
+  color: var(--main-color);
+  font-size: 17px;
+}
+
+.navbar__items li  {
+  margin-right: 25px;
+}
+
+/*MOBILE STYLES */
+.navbar-brand  {
+  margin: 0 50% 0 20%;
+}
+
+.section__info{
+  border: 1px solid var(--principal-color);
+  margin: 20px 0;
+}
+
+.align-items {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  margin:20px 0;
+}
+
+
+/* FIRST SECTION STYLES*/
+
+.bg-image--1{
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: center bottom;
+}
+
+.bg-image--padding {
+  padding: 150px 0 ;
+}
+
+/*SECOND SECTION STYLES */
+
+.principal-text--size {
+  font-size: 1.5em;
+}
+
+.first-color-theme--padding {
+  padding: 30px 30px 0 30px;
+}
+
+/*THIRD SECTION STYLES */
+
+.bg-image--2{
+  background-image: url(../assets/images/conduce.jpg);
+  background-position: center center;
+}
+
+.section--styles {
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 70px 30px 200px 30px ;
+}
+
+/*FOURTH SECTION STYLES */
+.image-map{
+  border: 1px solid var(--principal-color);
+  height: 350px;
+  width: 100%;
+}
+
+/* FOOTER STYLES*/
+footer  a:hover {
+  text-decoration: none;
+  color: var(--principal-color);
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer li  {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.footer__list-icons li{
+  display: inline;
+  margin: 0 5px;
+}
+
+.footer--padding {
+  padding: 30px;
+}
+
+.footer img {
+  width: 100%
+}
+
+/* MODAL STYLES*/
+
+.modal-sign-in__img{
+  width: 180px;
+}
+
+.modal--bg1 {
+  background-color: #08AC9D;
+}
+
+.modal__form {
+  border-radius: 5px;
+  background-color:#F5F5F5;
+  padding: 20px;
+  margin: 0 25% 6% 25%;
+}
+
+.modal__center{
+  margin-left: 20%;
+}
+
+.modal__border {
+  border:none;
+}
+
+.modal__form2{
+  border-radius: 5px;
+  padding: 20px;
+}
+
+ .modal2__input-inline {
+  display:block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.modal--bg2{
+  background-color: #A9A9A9;
+}
+
+.modal__input--margin{
+  margin-bottom: 5px;
+}
+
+.modal__button--bg{
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+
+.modal__button--bg:hover {
+   background-color: #5e5858ab;
+}
+
+.button--size{
+font-size:1em;
+}
+
+/* TABLET STYLES*/
+
+@media (min-width: 768px){
+    .navbar {
+      padding: 30px 40px;
+    }
+
+    .navbar-brand{
+      margin: 0;
+    }
+
+    /* FIRST SECTION STYLES*/
+
+    .section__span-left, .section__span-right{
+      display: inline-block;
+      width: 28%;
+      border-bottom: 1px solid var(--principal-color);
+      position: relative;
+      top:5px;
+    }
+
+    .section__span-left{
+      margin-right: 10%;
+    }
+
+    .section__span-right{
+      margin-left: 10%;
+    }
+
+    .first-color-theme--padding {
+      padding: 10px 0;
+    }
+
+    .section__info{
+      border-left: none;
+      padding: 20px 50px 20px 70px
+    }
+
+    .footer--padding {
+      padding: 70px;
+    }
+
+    .footer--align{
+      position: relative;
+      top: 280px;
+    }
+
+    .footer__figure--align {
+      position: relative;
+      top: 100px;
+    }
+
+    /* MODAL STYLES*/
+    .modal__center{
+      margin-left: 35%
+    }
+
+    .modal2__input-inline {
+      display:inline-block;
+      width: 49.5%;
+    }
+
+    .button--size{
+      font-size:1.3em;
+      }
+
+}
