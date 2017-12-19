@@ -164,6 +164,15 @@
   padding: 5px;
 }
 
+.input{
+  border : 1px solid var(--principal-color);
+  outline: none;
+}
+
+.input::placeholder{
+  color: white;
+}
+
 /* FOOTER STYLES*/
 footer  a:hover {
   text-decoration: none;
