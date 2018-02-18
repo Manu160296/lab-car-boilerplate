@@ -1,4 +1,4 @@
-# RETO N° 2 : "LabCar"
+# LabCar
 LabCar es una página web con diseño responsive que utiliza el framework Bootstrap ,así como el API de Google maps para el trazado de rutas.    
 
 
