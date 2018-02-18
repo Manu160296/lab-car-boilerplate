@@ -4,5 +4,6 @@ LabCar es una página web con diseño responsive que utiliza el framework Bootst
 
 
 ![IMAGEN-1](assets/images/labcar_opt.png)
-## Desarrollado para [Laboratoria](http://www.laboratoria.la/)
+## Desarrollado para   
+ [Laboratoria](http://www.laboratoria.la/)
 
